@@ -2,7 +2,7 @@ import { GridPosition } from './gameboard-grid.util';
 import { UserKeyInput } from './input';
 
 export class Snake {
-  snakeBody = [{ x: 12, y: 12 }];
+  snakeBody = [{ x: 11, y: 11 }];
 
   newSegments = 0;
   input = new UserKeyInput();
