@@ -19,10 +19,10 @@ export class GameBoardComponent implements OnInit, AfterViewInit {
     const score = this.food.currentScore;
     if (score < 5) {
       return 10;
-    } else if (score >= 5 && score < 10) {
+    } else if (score >= 5 && score < 10) {   
       return 13;
-    } else if (score >= 10 && score < 20) {
-      return 16;
+    } else if (score >= 10 && score < 20) {   
+      return 16;   
     }
     return 20;
   }
