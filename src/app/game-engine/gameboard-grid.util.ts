@@ -1,7 +1,7 @@
 const GRID_SIZE = 21;
 
 export interface GridPosition {
-  x: number;  
+  x: number;   
   y: number;
 }  
 
