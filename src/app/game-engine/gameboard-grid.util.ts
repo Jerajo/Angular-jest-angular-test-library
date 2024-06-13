@@ -15,8 +15,8 @@ export function randomGridPosition(): GridPosition {
 export function outsideGrid(position: any): boolean {    
   return (
     position.x < 1 ||  
-      position.x > GRID_SIZE ||  
+    position.x > GRID_SIZE ||  
     position.y < 1 ||
-  position.y > GRID_SIZE
-);  
+    position.y > GRID_SIZE
+  );
 }
