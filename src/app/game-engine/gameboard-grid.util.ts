@@ -8,7 +8,7 @@ export interface GridPosition {
 export function randomGridPosition(): GridPosition {  
   return {
     x: Math.floor(Math.random() *    GRID_SIZE) + 1,
-    y: Math.floor(Math.random() * GRID_SIZE) + 1,  
+    y: Math.floor(Math.random() * GRID_SIZE) + 1,    
   };
 }
 
