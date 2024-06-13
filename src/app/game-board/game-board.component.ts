@@ -10,14 +10,14 @@ import { Snake } from '../game-engine/snake';
 })
 export class GameBoardComponent implements OnInit, AfterViewInit {
   lastRenderTime = 0;
-  gameOver = false;  
-  gameBoard: any;  
+  gameOver = false;
+  gameBoard: any;
   snake = new Snake();
   food = new Food(this.snake);
 
-  get snakeSpeed() {
+  get snakeSpeed(): number {
     const score = this.food.currentScore;
-    if (score < 5) {
+    if (score < 6) {
       return 10;
     } else if (score >= 5 && score < 10) {
       return 13;
