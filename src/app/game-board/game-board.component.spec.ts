@@ -24,8 +24,8 @@ describe('GameBoardComponent', () => {
   });
 
   it.each([
-    [4, 12],
-    [5, 14],
+    [4, 10],
+    [5, 13],
     [10, 16],
     [20, 20],
   ])("should change snake speed depending o score: %s", (score: number, speed: number) => {
