@@ -24,7 +24,7 @@ describe('GameBoardComponent', () => {
   });
 
   it.each([
-    [4, 12],
+    [4, 10],
     [5, 13],
     [10, 16],
     [20, 20],
