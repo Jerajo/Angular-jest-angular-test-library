@@ -36,7 +36,7 @@ export class GameBoardComponent implements OnInit, AfterViewInit {
     window.requestAnimationFrame(this.start.bind(this));
 
     window.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' && this.gameOver) {
+      if (e.key === ' ' && this.gameOver) {
         this.restart();
       }
     });
